@@ -1,0 +1,5 @@
+sources:
+  - name: gold
+    schema: gold
+    tables:
+      - name: summary_eia_nhl

@@ -1,0 +1,6 @@
+sources:
+  - name: bronze
+    schema: bronze    
+    tables:
+      - name: raw_eia  
+      - name: raw_nhl_us_teams  

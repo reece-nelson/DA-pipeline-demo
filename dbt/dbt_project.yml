@@ -1,0 +1,18 @@
+name: eia_nhl_project
+version: 1.0.0
+profile: eia_nhl_project
+config-version: 2
+
+model-paths: ["models"]
+
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  eia_nhl_project:   
+    bronze:
+      +schema: bronze
+    silver:
+      +schema: silver
+    gold:
+      +schema: gold
