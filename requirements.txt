@@ -1,0 +1,7 @@
+requests
+prefect
+pandas
+psycopg2
+fastapi 
+httpx
+openpyxl

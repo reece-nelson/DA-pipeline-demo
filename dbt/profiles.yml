@@ -1,0 +1,11 @@
+eia_nhl_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgresdb
+      user: username
+      password: password
+      port: 5432
+      dbname: default_database
+      schema: dbt_dev

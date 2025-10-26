@@ -1,0 +1,5 @@
+sources:
+  - name: silver
+    schema: silver
+    tables:
+      - name: eia_nhl
